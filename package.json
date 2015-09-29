@@ -1,0 +1,11 @@
+{
+  "name": "siteupdater",
+  "version": "0.1.0",
+  "description": "Auto-updater for websites",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Renzo Westerbeek",
+  "license": "MIT"
+}
