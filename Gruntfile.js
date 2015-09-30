@@ -30,8 +30,11 @@ module.exports = function(grunt) {
       },
       node: {
         files: ['*.js'],
-        tasks: ['']
-      }
+        tasks: [],
+        options: {
+          livereload: true, // default port is 35729
+        },
+      },
     }
   });
 
