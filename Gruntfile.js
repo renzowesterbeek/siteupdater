@@ -21,9 +21,6 @@ module.exports = function(grunt) {
       },
       gruntfile: {
         src: 'Gruntfile.js'
-      },
-      node: {
-        src: ['*.js']
       }
     },
     watch: {
@@ -33,7 +30,7 @@ module.exports = function(grunt) {
       },
       node: {
         files: ['*.js'],
-        tasks: ['jshint:node']
+        tasks: ['']
       }
     }
   });
