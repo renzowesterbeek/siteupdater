@@ -12,7 +12,7 @@ fs.readFile('package.json', 'utf8', function (err, data) {
     throw err;
   }
 
-  request('https://raw.githubusercontent.com/renzowesterbeek/siteupdater/master/package.json', function(error, response, body) {
+  request('https://rawgit.com/renzowesterbeek/siteupdater/master/package.json', function(error, response, body) {
     if(!error && response.statusCode == 200){
       remotefile = body; // get remote file
       if(localfile !== remotefile){
